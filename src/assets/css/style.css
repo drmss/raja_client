@@ -1,0 +1,140 @@
+﻿@import "bootstrap.min.css";
+@import "font-IranYekan.css";
+@import "font-FontAwesome.pro.css";
+@import "persian-datepicker.min.css";
+
+body {
+	font-family: iranyekan, serif;
+	background-image: url('../img/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh
+}
+
+.Toastify__toast-body {
+	font-family: iranyekan !important;
+}
+
+a, a:hover, a:focus, a:visited {
+	text-decoration: none;
+}
+
+.content {
+	padding: 20px;
+}
+
+.top-bar {
+	background-color: #a759a9;
+	height: 60px;
+	line-height: 60px;
+	padding: 0 10px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.top-bar a, .top-bar a:hover {
+	color: #fff;
+}
+
+.sidebar-top-bar {
+	height: 60px;
+	background-color: #a759a9;
+	padding: 8px;
+	color: #fff;
+}
+
+.search-box {
+	border: 2px dashed #aaa;
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+
+.raja-box {
+	border: 2px dashed #aaa;
+	border-radius: 10px;
+	padding: 20px;
+	background-color: #fff;
+	margin: 50px 0;
+}
+
+.search-box  .btn {
+	margin-top: 32px;
+}
+
+.btn-pink {
+	background-color: #a759a9;
+	border-color: #a759a9;
+}
+
+.btn-pink:hover {
+	background-color: #731975;
+	border-color: #731975;
+}
+
+.search-list {
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.page-title {
+	background-color: #731975;
+	color: #fff;
+	font-weight: 700;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.search-item {
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.search-item:hover{
+	background-color: #ddd;
+}
+
+.search-item .from {
+	font-size: 20px;
+}
+
+.search-item .to {
+	font-size: 20px;
+}
+
+.search-item .price {
+	font-size: 40px;
+	color: #ffa900;
+}
+
+.person-detail {
+	background-color: #ddd;
+	padding: 10px;
+	padding-top: 30px;
+	border-radius: 10px;
+	position: relative;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+.person-detail .num {
+	font-size: 20px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 25px;
+	position: absolute;
+	top: -25px;
+	right: 10px;
+	background-color: #555;
+	color: #fff;
+}
+
+.nav-links a {
+	margin-right: 20px;
+}
